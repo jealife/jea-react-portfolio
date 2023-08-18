@@ -5,18 +5,18 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer class="footer">
-            <div class="footer-container sectionntainer">
+        <footer className="footer">
+            <div className="footer-container sectionntainer">
 
-                <div class="footer-logo"><i class='bx bx-code'></i></div>
-                <div class="socials ">
-                    <Link href="mailto:jealife.pictures@gmail.com"><i class='bx bxs-envelope'></i></Link>
-                    <Link href="http://instagram.com/jealife_pictures"><i class='bx bxl-instagram-alt'></i></Link>
-                    <Link href="https://github.com/jealife"><i class='bx bxl-github'></i></Link>
+                <div className="footer-logo"><i className='bx bx-code'></i></div>
+                <div className="socials ">
+                    <Link href="mailto:jealife.pictures@gmail.com"><i className='bx bxs-envelope'></i></Link>
+                    <Link href="http://instagram.com/jealife_pictures"><i className='bx bxl-instagram-alt'></i></Link>
+                    <Link href="https://github.com/jealife"><i className='bx bxl-github'></i></Link>
 
                 </div>
 
-                <div class="copy-right">&copy; Jean Guylane, 2023.</div>
+                <div className="copy-right">&copy; Jean Guylane, 2023.</div>
 
             </div>
         </footer>

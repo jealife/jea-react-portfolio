@@ -11,12 +11,12 @@ const navLinks = [
 
 function Nav() {
   return (
-    <nav class="nav n container">
-      <div class="nav-logo none"><i class='bx bx-code'></i></div>
-      <div class="menu-icon none">
-        <i class='bx bx-menu-alt-right showMenu'></i>
+    <nav className="nav n container">
+      <div className="nav-logo none"><i className='bx bx-code'></i></div>
+      <div className="menu-icon none">
+        <i className='bx bx-menu-alt-right showMenu'></i>
       </div>
-      <div class="nav-menu">
+      <div className="nav-menu">
         <Navigation navLinks={navLinks} />
       </div>
     </nav>

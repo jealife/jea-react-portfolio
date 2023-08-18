@@ -4,40 +4,40 @@ import './hero.css'
 
 export default function Hero() {
     return (
-        <section class="section section-hero container-dark " id="home">
-            <div class="section-hero-top">
-                <h1 class="section--big-title">
-                    Jean Guylane Memiaghe<span class="dot">•</span>
+        <section className="section section-hero container-dark " id="home">
+            <div className="section-hero-top">
+                <h1 className="section--big-title">
+                    Jean Guylane Memiaghe<span className="dot">•</span>
                     <br />
-                    <div class="word line-1 anim-typewriter">
+                    <div className="word line-1 anim-typewriter">
 
-                        <a href="" class="typewrite" data-period="2000"
+                        <a href="" className="typewrite" data-period="2000"
                             data-type='[ "Developpeur Web.", "Photographe."]'>
-                            <span class="wrap"></span>
+                            <span className="wrap"></span>
                         </a>
                     </div>
                 </h1>
-                <p class="text-bg-dark">
+                <p className="text-bg-dark">
                     Je suis Jean <br /> Je vous invite à parcourir mes réalisations entre Développement web et
                     photographie.
                 </p>
-                <a href="assets/CV.pdf" download class="button">
-                    Download CV <i class='bx bx-cloud-download'></i>
+                <a href="assets/CV.pdf" download className="button">
+                    Download CV <i className='bx bx-cloud-download'></i>
                 </a>
             </div>
 
-            <div class="container main-projects grid">
-                <a href="" class="main-projects2">
-                    <div class="text">
+            <div className="container main-projects grid">
+                <a href="" className="main-projects2">
+                    <div className="text">
                         <span>
                             Projets Web
                         </span>
                     </div>
                 </a>
 
-                <a href="https://gallery-grid-blush.vercel.app/" class="main-projects1">
+                <a href="https://gallery-grid-blush.vercel.app/" className="main-projects1">
 
-                    <div class="text">
+                    <div className="text">
                         <span>
                             Photographies
                         </span>
