@@ -30,7 +30,7 @@ export default function About() {
 
             </section>
 
-            <section className="section pb-5">
+            <section className="section mb-12">
                 <div className="exerience">
                     <div className="max experience">
                         <h2 className="title txt-link section-about-title">

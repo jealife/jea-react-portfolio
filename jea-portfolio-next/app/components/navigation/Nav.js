@@ -3,7 +3,7 @@ import './nav.css'
 import Link from 'next/link'
 
 const navLinks = [
-  { name: 'Accueil', href: '/' },
+  { name: 'Accueil', href: '/#home' },
   { name: 'A propos', href: '#about' },
   { name: 'Work', href: '#work' },
   { name: 'Contact', href: '#contact' },
@@ -11,12 +11,12 @@ const navLinks = [
 
 function Nav() {
   return (
-    <nav className="nav n container">
+    <nav className="nav w-auto px-10 container">
       <div className="nav-logo none"><i className='bx bx-code'></i></div>
       <div className="menu-icon none">
         <i className='bx bx-menu-alt-right showMenu'></i>
       </div>
-      <div className="nav-menu">
+      <div className="flex gap-4 text-center text-slate-950">
         <Navigation navLinks={navLinks} />
       </div>
     </nav>
