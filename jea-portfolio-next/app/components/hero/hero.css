@@ -1,0 +1,89 @@
+.section-hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .section-hero-top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .section-hero-top .button {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    transition: .4s;
+    justify-self: center;
+    padding: .85rem .2rem .85rem 1rem;
+  }
+
+  .section-hero-top .button i {
+    font-size: 1.2rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+  }
+
+  .section-hero-top .button:hover {
+    transition: .5s;
+    gap: 0.2rem;
+    padding: .85rem 1.25rem;
+    box-shadow: #f86f20cc 0px 5px 60px 5px;
+  }
+
+  .section-hero-top .button:hover i {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(.55rem);
+  }
+
+  .main-projects {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 100%;
+    align-items: center;
+    height: 320px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-projects1 {
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-color: var(--nav-color);
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    background-image: url("https://images.unsplash.com/photo-1499343245400-cddc78a01317?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .main-projects2 {
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-color: var(--nav-color);
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    background-image: url(https://images.unsplash.com/photo-1617900906639-cab7adceb499?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100%;
+  }
+
+  .word p a {
+    color: var(--vibrant);
+  }
