@@ -12,7 +12,7 @@ import './globals.css'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       <Head>
+       <head>
             <meta property="og:title" content=" JEaLiFe's Portfolio" />
             <meta name="description"
                 content="Salut, je suis Jean Développeur web et mobile et designer graphiste. Je fais aussi de la photographie..." />
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             <title>Jean Guylane</title>
 
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
-        </Head>
+        </head>
       <body>
             <header>
               <Nav />
