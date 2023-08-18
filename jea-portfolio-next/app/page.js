@@ -4,7 +4,7 @@ import Work from './components/portfolio/page'
 
 export default function Home() {
   return (
-    <main >
+    <main  >
       <Hero/>
       <About />
       <Work/>
